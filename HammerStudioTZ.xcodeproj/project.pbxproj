@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BA851F56983D82DCF7C989B /* libPods-HammerStudioTZ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1186A23A1362858649A88B18 /* libPods-HammerStudioTZ.a */; };
+		720DF43D25C7723100852878 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720DF43C25C7723100852878 /* Reachability.swift */; };
 		72989CC425C6D2DC007FFD2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72989CC325C6D2DC007FFD2E /* AppDelegate.swift */; };
 		72989CC625C6D2DC007FFD2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72989CC525C6D2DC007FFD2E /* SceneDelegate.swift */; };
 		72989CC825C6D2DC007FFD2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72989CC725C6D2DC007FFD2E /* ViewController.swift */; };
 		72989CCB25C6D2DC007FFD2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72989CC925C6D2DC007FFD2E /* Main.storyboard */; };
 		72989CCD25C6D2E1007FFD2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72989CCC25C6D2E1007FFD2E /* Assets.xcassets */; };
 		72989CD025C6D2E1007FFD2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72989CCE25C6D2E1007FFD2E /* LaunchScreen.storyboard */; };
+		72989CDA25C6D708007FFD2E /* AutoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72989CD825C6D708007FFD2E /* AutoCell.swift */; };
+		72989CDB25C6D708007FFD2E /* AutoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72989CD925C6D708007FFD2E /* AutoCell.xib */; };
+		72989CDF25C6E243007FFD2E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72989CDE25C6E243007FFD2E /* ModelData.swift */; };
+		72989CE225C6F77F007FFD2E /* parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72989CE125C6F77F007FFD2E /* parsing.swift */; };
+		72A3ABAC25C834FC00BAC0DB /* AboutCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A3ABAB25C834FC00BAC0DB /* AboutCar.swift */; };
+		72B7E46725C96605002A7CAC /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7E46625C96605002A7CAC /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1186A23A1362858649A88B18 /* libPods-HammerStudioTZ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HammerStudioTZ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6090F319E5369D0A57C22A9D /* Pods-HammerStudioTZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HammerStudioTZ.release.xcconfig"; path = "Target Support Files/Pods-HammerStudioTZ/Pods-HammerStudioTZ.release.xcconfig"; sourceTree = "<group>"; };
+		720DF43C25C7723100852878 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		72989CC025C6D2DC007FFD2E /* HammerStudioTZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HammerStudioTZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72989CC325C6D2DC007FFD2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72989CC525C6D2DC007FFD2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,13 @@
 		72989CCC25C6D2E1007FFD2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72989CCF25C6D2E1007FFD2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72989CD125C6D2E1007FFD2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72989CD825C6D708007FFD2E /* AutoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCell.swift; sourceTree = "<group>"; };
+		72989CD925C6D708007FFD2E /* AutoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoCell.xib; sourceTree = "<group>"; };
+		72989CDE25C6E243007FFD2E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		72989CE125C6F77F007FFD2E /* parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parsing.swift; sourceTree = "<group>"; };
+		72A3ABAB25C834FC00BAC0DB /* AboutCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCar.swift; sourceTree = "<group>"; };
+		72B7E46625C96605002A7CAC /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		D4DF7D71F16018B6F9DAC789 /* Pods-HammerStudioTZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HammerStudioTZ.debug.xcconfig"; path = "Target Support Files/Pods-HammerStudioTZ/Pods-HammerStudioTZ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA851F56983D82DCF7C989B /* libPods-HammerStudioTZ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		724615D825CABC7F000E9540 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72989CC925C6D2DC007FFD2E /* Main.storyboard */,
+				72989CC725C6D2DC007FFD2E /* ViewController.swift */,
+				72A3ABAB25C834FC00BAC0DB /* AboutCar.swift */,
+				72989CD825C6D708007FFD2E /* AutoCell.swift */,
+				72989CD925C6D708007FFD2E /* AutoCell.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		724615D925CABC99000E9540 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				72989CCE25C6D2E1007FFD2E /* LaunchScreen.storyboard */,
+				720DF43C25C7723100852878 /* Reachability.swift */,
+				72989CE125C6F77F007FFD2E /* parsing.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		724615DA25CABCC1000E9540 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				72989CDE25C6E243007FFD2E /* ModelData.swift */,
+				72B7E46625C96605002A7CAC /* StorageManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		72989CB725C6D2DC007FFD2E = {
 			isa = PBXGroup;
 			children = (
 				72989CC225C6D2DC007FFD2E /* HammerStudioTZ */,
 				72989CC125C6D2DC007FFD2E /* Products */,
+				D477AB859A4DBCAEBF5CFA92 /* Pods */,
+				9379F5A13F74C2C92B00BAAF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +110,30 @@
 			children = (
 				72989CC325C6D2DC007FFD2E /* AppDelegate.swift */,
 				72989CC525C6D2DC007FFD2E /* SceneDelegate.swift */,
-				72989CC725C6D2DC007FFD2E /* ViewController.swift */,
-				72989CC925C6D2DC007FFD2E /* Main.storyboard */,
+				724615D925CABC99000E9540 /* Network */,
+				724615D825CABC7F000E9540 /* Controllers */,
+				724615DA25CABCC1000E9540 /* Data */,
 				72989CCC25C6D2E1007FFD2E /* Assets.xcassets */,
-				72989CCE25C6D2E1007FFD2E /* LaunchScreen.storyboard */,
 				72989CD125C6D2E1007FFD2E /* Info.plist */,
 			);
 			path = HammerStudioTZ;
+			sourceTree = "<group>";
+		};
+		9379F5A13F74C2C92B00BAAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1186A23A1362858649A88B18 /* libPods-HammerStudioTZ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D477AB859A4DBCAEBF5CFA92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF7D71F16018B6F9DAC789 /* Pods-HammerStudioTZ.debug.xcconfig */,
+				6090F319E5369D0A57C22A9D /* Pods-HammerStudioTZ.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +143,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72989CD425C6D2E1007FFD2E /* Build configuration list for PBXNativeTarget "HammerStudioTZ" */;
 			buildPhases = (
+				494A60EAD890E0F6A8786FB7 /* [CP] Check Pods Manifest.lock */,
 				72989CBC25C6D2DC007FFD2E /* Sources */,
 				72989CBD25C6D2DC007FFD2E /* Frameworks */,
 				72989CBE25C6D2DC007FFD2E /* Resources */,
@@ -126,19 +196,51 @@
 			files = (
 				72989CD025C6D2E1007FFD2E /* LaunchScreen.storyboard in Resources */,
 				72989CCD25C6D2E1007FFD2E /* Assets.xcassets in Resources */,
+				72989CDB25C6D708007FFD2E /* AutoCell.xib in Resources */,
 				72989CCB25C6D2DC007FFD2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		494A60EAD890E0F6A8786FB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HammerStudioTZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72989CBC25C6D2DC007FFD2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				720DF43D25C7723100852878 /* Reachability.swift in Sources */,
+				72989CE225C6F77F007FFD2E /* parsing.swift in Sources */,
+				72A3ABAC25C834FC00BAC0DB /* AboutCar.swift in Sources */,
+				72B7E46725C96605002A7CAC /* StorageManager.swift in Sources */,
 				72989CC825C6D2DC007FFD2E /* ViewController.swift in Sources */,
 				72989CC425C6D2DC007FFD2E /* AppDelegate.swift in Sources */,
+				72989CDF25C6E243007FFD2E /* ModelData.swift in Sources */,
+				72989CDA25C6D708007FFD2E /* AutoCell.swift in Sources */,
 				72989CC625C6D2DC007FFD2E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +385,7 @@
 		};
 		72989CD525C6D2E1007FFD2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4DF7D71F16018B6F9DAC789 /* Pods-HammerStudioTZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.palehin.HammerStudioTZ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palehin.HammerSystemTZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +405,7 @@
 		};
 		72989CD625C6D2E1007FFD2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6090F319E5369D0A57C22A9D /* Pods-HammerStudioTZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +416,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.palehin.HammerStudioTZ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.palehin.HammerSystemTZ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

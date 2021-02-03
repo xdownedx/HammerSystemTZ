@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CellID" id="gTV-IL-0wX" customClass="AutoCell" customModule="HammerStudioTZ" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="387" height="400"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="387" height="400"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="23" translatesAutoresizingMaskIntoConstraints="NO" id="A8t-hk-Bt3">
+                        <rect key="frame" x="0.0" y="0.0" width="387" height="300"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="387" id="kL9-sN-YeI"/>
+                            <constraint firstAttribute="height" constant="300" id="zie-tD-lSQ"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="lWK-sG-8sU">
+                        <rect key="frame" x="13" y="313" width="194" height="75"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesla Cybertruck" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mJY-8Z-MFa">
+                                <rect key="frame" x="0.0" y="0.0" width="194" height="34.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="322$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UbS-lG-ahS">
+                                <rect key="frame" x="0.0" y="47.5" width="44.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.031372549020000001" green="0.29803921570000003" blue="0.3803921569" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="A8t-hk-Bt3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3hq-he-Ywj"/>
+                <constraint firstItem="lWK-sG-8sU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="13" id="LGG-DW-FPr"/>
+                <constraint firstItem="lWK-sG-8sU" firstAttribute="top" secondItem="A8t-hk-Bt3" secondAttribute="bottom" constant="13" id="baf-hH-6hS"/>
+                <constraint firstItem="A8t-hk-Bt3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fuX-Qn-XsQ"/>
+                <constraint firstAttribute="trailing" secondItem="A8t-hk-Bt3" secondAttribute="trailing" id="ow3-Cm-7Ta"/>
+                <constraint firstAttribute="bottom" secondItem="lWK-sG-8sU" secondAttribute="bottom" constant="12" id="trQ-vG-hnb"/>
+            </constraints>
+            <connections>
+                <outlet property="autoImage" destination="A8t-hk-Bt3" id="gRg-nO-rza"/>
+                <outlet property="autoName" destination="mJY-8Z-MFa" id="P8O-yU-1BM"/>
+                <outlet property="autoPrice" destination="UbS-lG-ahS" id="iEu-Mg-tGZ"/>
+            </connections>
+            <point key="canvasLocation" x="5.0724637681159424" y="91.741071428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="23" width="207" height="150"/>
+    </resources>
+</document>
